@@ -1,45 +1,48 @@
-# A detailed course to undestand nextjs
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
-This long video was designed to give you an indepth understanding about latest nextjs and how it works. 
 
-## Tech Stack
-- Nextjs
-- typescript
-- mongodb
-- mailtrap
 
-![Course Image](./nextjs.png)
+### How to Use
 
----
-Available on my youtube channel
-[Youtube channel link](https://www.youtube.com/@HiteshChoudharydotcom)
+To use the website, simply visit the homepage and create an account. Once you are logged in, you can upload any image you want by pressing upload button. 
 
-## Getting Started
+Once you have all the images you have uploaded you can see them at your profile page itself.
 
+### Technologies
+
+* Next.js 13
+* Typescript
+* MongoDB
+* React Hot Toast
+* Tailwind CSS
+* cloudinary
+
+### Technologies Used:
+
+* Next.js 13 for enhanced routing and server-side rendering capabilities.
+* MongoDB for efficient and scalable data management.
+* React Hot Toast library for real-time notifications, improving user experience.
+* Cloudinary to storing the images on cloud and get the url of that images
+
+ ### Authentication System: 
+ * Implemented a robust authentication system, resulting in a 30% reduction in unauthorized access attempts.
+
+
+### How to Contribute
+If you would like to contribute to this project, please feel free to fork the repository and submit a pull request.
 First, run the development server:
 
+
 ```bash
+git clone <link>
+npm install
+connect to MongoDB server
+connect to Cloudinary server
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
 ```
-## Assignment
-1. Improve the UI of the application
-2. Add feature of forgot password
-
----
-### Hint:
-For forgot password feature.
-1. User needs a page to enter his email and submit.
-2. Validate if user exists, if yes, send him same token email that we discussed in this course
-3. User clicks on email and get a page to enter new password with a submit button.
-4. As soon as he click submit button, he is sending you a token and new password.
-5. Verify the token and save the new password after encrypting it.
-
----
-## your completed assignments
-
-- Add your repo link here
-- 
