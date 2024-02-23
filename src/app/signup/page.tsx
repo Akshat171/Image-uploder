@@ -55,7 +55,7 @@ export default function SignupPage() {
             type="text"
             value={user.username}
             onChange={(e) => setUser({ ...user, username: e.target.value })}
-            placeholder="email"
+            placeholder="name"
           />
           <input
             className="p-2 my-2 rounded w-[100%] focus:outline-blue-600"

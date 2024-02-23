@@ -69,6 +69,15 @@ const Home = () => {
     }
   };
 
+  const logout = async () => {
+    try {
+      await axios.get("/api/users/logout");
+      window.location.href = `/login`;
+    } catch (error: any) {
+      console.log(error.message);
+    }
+  };
+
   return (
     <div className=" flex flex-col items-center justify-center min-h-screen  py-2 gap-3 ">
       <form
@@ -118,7 +127,7 @@ const Home = () => {
       </div>
 
       <button
-        // onClick={logout}
+        onClick={logout}
         className="w-20 h-10 bg-white cursor-pointer rounded-3xl border-2 border-[#16121a] shadow-[inset_0px_-2px_0px_1px_#9748FF] group hover:bg-[#9748FF] transition duration-300 ease-in-out"
       >
         <span className="font-medium text-[#333] group-hover:text-white">
